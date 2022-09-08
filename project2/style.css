@@ -1,0 +1,26 @@
+body{
+  background-color: black;
+  margin: 0;
+}
+
+.horizontal_line {
+  height: 2px;
+  width: 100%;
+  background-color: white;
+}
+
+.vertical_line{
+  height: 100%;
+  width: 2px;
+  background-color: white;
+
+  position: fixed;
+}
+
+.aim {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+}
